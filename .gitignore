@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/*.json
+.streamlit/**/*.json
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Models
+*.joblib
+*.h5
+*.onnx
+*.model
+
+# Build
+dist/
+build/
